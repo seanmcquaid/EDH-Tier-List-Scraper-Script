@@ -6,7 +6,7 @@ const url = 'https://tappedout.net/mtg-decks/best-commanders-in-edh-tier-list/';
 const searchedString = 'Golos, Tireless Pilgrim';
 const formattedString = searchedString
   .toLowerCase()
-  .replace(',', '')
+  .replace(/,/g, '')
   .replace(/\s/g, '-');
 
 const getTierNumber = async () => {
