@@ -2,5 +2,10 @@
   "name": "EDH-Tier-List-Scraper-Script",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.6",
+    "puppeteer": "^9.0.0"
+  }
 }
